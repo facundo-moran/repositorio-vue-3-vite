@@ -1,6 +1,3 @@
-[submodule "indecision-app"]
-	path = indecision-app
-	url = https://github.com/facundo-moran/vue-3-vite-chat-tailwind
 [submodule "chat-tailwind"]
 	path = chat-tailwind
 	url = https://github.com/facundo-moran/vue-3-vite-chat-tailwind
