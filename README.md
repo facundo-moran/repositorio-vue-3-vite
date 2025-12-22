@@ -137,7 +137,9 @@ git push
 - ❌ Nunca hacer git add de archivos del submodule desde el padre
 - ❌ No crear la carpeta antes de git submodule add
 
-
+❗ Siempre hay dos commits
+- commit en el submodule
+- commit en el repo padre
 ---
 
 ## 🧠 Filosofía del repo
@@ -152,4 +154,7 @@ git push
 git submodule status
 git submodule sync
 git submodule update --init --recursive
+git add submodule-name
+git commit -m "update your submodule"
+git push
 ```
